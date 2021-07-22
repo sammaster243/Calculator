@@ -1,0 +1,26 @@
+Number1 = input("Enter a number: ")
+Operator = input("Choose an Operator: ")
+Number2 = input("Enter another number: ")
+
+if Operator == '*':
+    Answer = int(Number1) * int(Number2)
+    print(Answer)
+
+elif Operator == '+':
+    Answer = int(Number1) + int(Number2)
+    print(Answer)
+
+elif Operator == '-':
+    Answer = int(Number1) - int(Number2)
+    print(Answer)
+
+elif Operator == '/':
+    Answer = int(Number1) / int(Number2)
+    print(Answer)
+
+elif Operator == '^':
+    Answer = int(Number1) ** int(Number2)
+    print(Answer)
+
+else:
+    print("There is an error")
